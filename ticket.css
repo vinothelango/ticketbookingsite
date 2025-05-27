@@ -99,6 +99,9 @@ margin-top: 60px;
 }
 #ticode{
     display: flex;
+    margin-left: 200px;
+    direction:inherit;
+    top: 0;
 }
 #instiks{
     position: absolute;
