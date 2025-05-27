@@ -15,16 +15,16 @@ form.addEventListener('submit', (e) => {
     const githubValue = github.value
     localStorage.setItem('username', usernameValue);
     localStorage.setItem('GitHub', githubValue);
-    window.location.href = 'ticket.html';
 
+
+
+    if (validateInputs()) {
+
+        // Save username to localStorage to use on next page
+        localStorage.setItem('username', username.value.trim());
+        window.location.href = 'ticket.html';
+    }
 })
-//     if (validateInputs()) {
-
-//         // Save username to localStorage to use on next page
-//         localStorage.setItem('username', username.value.trim());
-//         window.location.href = 'ticket.html';
-//     }
-// });
 
 function validateInputs() {
     const usernameVal = username.value.trim();
