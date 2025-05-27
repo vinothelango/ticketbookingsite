@@ -1,0 +1,151 @@
+body{
+  background-image: url(assets/images/background-desktop.png);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  margin: 20vh;
+}
+.containar{
+    margin: 20vh;
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+  font-size:xx-large;
+}
+#valudatione{
+text-align: center;
+color:gray  ;  
+}
+
+#marks{
+  text-align: center;
+  flex-direction: row;
+  padding: 10px;
+  width: max-content;
+  height: max-content;
+  size: 40px;
+  margin: 5px;
+  margin-left: 40%;
+  color: aliceblue;
+  display:flex;
+}
+h3{
+  padding: 10px;
+}
+#username1{
+    display: flex;
+    position: absolute;
+    margin-left: 480px;
+    color: #f08d54;
+    top: 100px;
+    
+}
+#congrat{
+    display: flex;
+    margin-left: 350px;
+}
+
+#topimage{
+right: 0;
+position: absolute;
+top: 0;
+margin-top: 60px;
+}
+#botimage{
+  position: absolute;
+  bottom: 0;
+}
+#tiks{
+   
+    margin-top: 35px;
+    padding: 10px;
+    color: wheat;
+    position: relative;
+   
+    
+}
+
+#ticketicon{
+    position: relative;
+    width: 500px;
+}
+#cardic{
+    width: 25px;
+    padding: 1px;
+    position: relative;
+    bottom: 7px;
+
+}
+#textp1{
+   padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#dates{
+    text-align: center;
+    font-size: 13px;
+    margin-right: 20px;
+    margin: 0;
+   font-family: 'Inconsolata'
+}
+#codes{
+    margin: 0;
+    top: 20px;
+   
+}
+#ticode{
+    display: flex;
+}
+#instiks{
+    position: absolute;
+    display: flex;
+    left: 30%;
+    width: max-content;
+    
+    top: 20px;
+
+
+}
+#avatars{
+    position: absolute;
+    display: flex;
+    left: 35%;
+    bottom: 30px;
+    color: white;
+}
+#avatarsimg{
+    width: 60px;
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 5px;
+}
+#avatarsinps{
+    display: flex;
+    flex-direction: column;
+    
+    top: 30px;
+}
+#gitslink{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+    }
+#username{
+    margin: 0;
+}
+#gits{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+#GitHub{
+    display: flex;
+    margin: 0;
+}

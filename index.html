@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form valudation</title>
+
+</head>
+
+<body>
+    <img id="topimage" src="assets/images/pattern-squiggly-line-top.svg" alt="">
+    <img id="botimage" src="assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="">
+   
+    <div class="containar">
+        
+        <div id="marks">
+            <img src="assets/images/logo-mark.svg" alt="">
+            <h3>Coding Conf</h3>
+        </div>
+        <h1>Your journey to coding conf</h1>
+        <h1>2025 Start here!</h1>
+        <p>Secure your sopt at next year's
+            biggest coding confrence
+        </p>
+        <form action="" id="form">
+            <div id="input-group">
+                <label for="username"></label>
+                
+                    <div id="drop-zone"ondrop="dropHandler(event)" ondragover="dragOverHandler(event)" class="input-group"
+                        class="input-group">
+                        <img id="drogicon" src="assets/images/icon-upload.svg" alt="">
+                         <input type="file" id="fileInput" accept="image/*" hidden />
+                        <p id="file-label">Drag and Drop files here</p>
+                        <img id="preview-image" src="" alt="" style="max-width: 100%; display: none;" />
+                        <div class="error"></div>
+                    </div>
+
+
+                <div class="error"></div>
+            </div>
+            <div id="input-group">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" name="username">
+                <div class="error"></div>
+            </div>
+            <div id="input-group">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="username">
+                <div class="error"></div>
+            </div>
+            <div id="input-group">
+                <label for="GitHub">GitHub</label>
+                <input type="text" id="GitHub" name="GitHub">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Generate My Ticket</button>
+       
+        </form>
+    </div>
+          <img id="lineimg" src="assets/images/pattern-lines.svg" alt="">
+          <img id="circleimg" src="assets/images/pattern-circle.svg" alt="">
+          <img id="circleimg1" src="assets/images/pattern-circle.svg" alt="">
+</body>
+<script src="./index.js"></script>
+<script>
+   
+    
+</script>
+</html>
