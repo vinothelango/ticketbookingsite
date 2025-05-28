@@ -87,21 +87,23 @@ body {
   
   }
 }
-@media (max-width: 768px) {
-  h1 {
-    font-size: 50%;
-     
-  }
-}
-@media (max-width: 480px) {
-#h1 {
-  font-size: 40%;
-  }
-}
 
 #drop-zone.drag-over {
     border-color: #4a90e2;
     background-color: #f0f8ff;
+}
+@media (max-width: 768px) {
+  #drop-zone {
+    /* width: 60%; */
+     font-size: medium;
+  }
+}
+@media (max-width: 480px) {
+#drop-zone {
+  /* width: 50%; */
+  font-size: small;
+  max-width: fit-content;
+  }
 }
 
 #form button{
@@ -125,16 +127,16 @@ width: 100%;}
   font-size: smaller;
 }
  @media (max-width: 768px) {
-  #input-groupp {
-    width: 60%;
+  #input-group {
+    /* width: 60%; */
      
   }
 }
 @media (max-width: 480px) {
 #input-group {
-  width: 60%;
+  /* width: 60%; */
   max-width: fit-content;
-  }
+  } 
 }
 input{
   color: aliceblue;
@@ -152,7 +154,7 @@ input{
 h1{
   color: aliceblue;
   text-align: center;
-  font-size:xx-large;
+  /* font-size: medium; */
 }
 p{
 text-align: center;
@@ -173,13 +175,13 @@ color:gray  ;
 }
 @media (max-width: 768px) {
   #marks {
-    width: 60%;
+    /* width: 60%; */
      font-size: medium;
   }
 }
 @media (max-width: 480px) {
 #marks {
-  width: 50%;
+  /* width: 50%; */
   font-size: small;
   max-width: fit-content;
   }
