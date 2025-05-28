@@ -5,7 +5,7 @@ body{
  position: relative;
   font-family:url(assets/fonts/static/Inconsolata-ExtraBold.ttf);
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
     width: 60%;
      
@@ -16,7 +16,7 @@ body {
   width: 50%;
   
   }
-}
+} */
 #form{
   width: 400px;
   margin: 20vh auto 0 auto;
@@ -55,18 +55,6 @@ body {
   background-size: cover;
 
 }
-@media (max-width: 768px) {
-  #circleimg {
-    width: 60%;
-     
-  }
-}
-@media (max-width: 480px) {
-#circleimg {
-  width: 50%;
-  max-width: fit-content;
-  }
-}
 #circleimg1{
    display: flex;
   position: absolute;
@@ -76,18 +64,6 @@ body {
   bottom: 200px;
   /* left: 800px; */
   background-size: cover;}
-  @media (max-width: 768px) {
-  #circleimg1 {
-    width: 60%;
-     
-  }
-}
-@media (max-width: 480px) {
-#circleimg1 {
-  width: 50%;
-  max-width: fit-content;
-  }
-}
 #drop-zone {
     border: 2px dashed #ccc;
     padding: 20px;
@@ -240,13 +216,13 @@ margin-top: 60px;
 }
 @media (max-width: 768px) {
   #topimage {
-    width: 60%;
+    width: 40%;
      
   }
 }
 @media (max-width: 478px) {
 #topimage {
-  width: 50%;
+  width: 30%;
  
   }
 }
